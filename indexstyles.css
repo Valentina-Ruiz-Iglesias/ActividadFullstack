@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* NAV CENTRADO */
+nav {
+    background-color: #333;
+    padding: 12px;
+    display: flex;
+    justify-content: center; /* centra horizontal */
+    gap: 30px; /* espacio entre links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* EFECTO HOVER */
+nav a:hover {
+    color: #00c3ff;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #0056b3;
+    color: white;
+}
+
+/* CONTENIDO */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* TARJETAS */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* TITULOS */
+h3 {
+    margin-top: 0;
+}
