@@ -1,16 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #eef2f7;
 }
 
-/* NAV CENTRADO */
+/* NAV */
 nav {
-    background-color: #333;
-    padding: 12px;
+    background: linear-gradient(90deg, #0d47a1, #1976d2);
+    padding: 15px;
     display: flex;
-    justify-content: center; /* centra horizontal */
-    gap: 30px; /* espacio entre links */
+    justify-content: center;
+    gap: 40px;
 }
 
 nav a {
@@ -19,36 +19,41 @@ nav a {
     font-weight: bold;
 }
 
-/* EFECTO HOVER */
-nav a:hover {
-    color: #00c3ff;
-}
-
 /* HEADER */
 header {
     text-align: center;
-    padding: 30px;
-    background-color: #0056b3;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1565c0, #42a5f5);
     color: white;
 }
 
-/* CONTENIDO */
+/* GRID */
 main {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 30px;
 }
 
-/* TARJETAS */
+/* CARD */
 .card {
-    background-color: white;
+    background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 /* TITULOS */
 h3 {
-    margin-top: 0;
+    color: #1565c0;
+}
+
+/* TEXTO */
+p {
+    line-height: 1.5;
+}
+
+/* LISTAS */
+li {
+    margin-bottom: 5px;
 }
