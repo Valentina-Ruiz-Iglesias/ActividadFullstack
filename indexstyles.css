@@ -22,9 +22,15 @@ nav a {
 /* HEADER */
 header {
     text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(135deg, #1565c0, #42a5f5);
+    padding: 60px 20px;
     color: white;
+
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://upload.wikimedia.org/wikipedia/commons/d/dc/Casa_Central_de_la_Universidad_de_Chile.jpg");
+
+    background-size: cover;
+    background-position: center;
 }
 
 /* GRID */
