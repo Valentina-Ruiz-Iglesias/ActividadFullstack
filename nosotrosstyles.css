@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f5f7fb;
+}
+
+
+/* NAV */
+nav {
+    background-color: #002b5c;
+    padding: 15px;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* BANNER */
+.banner {
+    height: 600px;
+    background-image: url("https://www.unir.net/wp-content/uploads/2021/04/la-universidad-que-necesitamos_c-2-1.webp");
+    background-size: cover;
+    background-position: center 70%;
+}
+
+
+/* TEXTO ENCIMA */
+.overlay {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.overlay h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+
+.overlay p {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 60px;
+}
+
+
+/* CAJAS */
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+
+/* VALORES */
+.valores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.valores span {
+    background: #eef3ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+/* EQUIPO */
+.equipo {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.equipo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+.miembro {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.avatar {
+    font-size: 60px;
+}
+
+
+.cargo {
+    color: gray;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #002b5c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
